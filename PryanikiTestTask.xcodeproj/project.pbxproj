@@ -9,13 +9,27 @@
 /* Begin PBXBuildFile section */
 		29FDB1C8283F9893007711DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB1C7283F9893007711DF /* AppDelegate.swift */; };
 		29FDB1CA283F9893007711DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB1C9283F9893007711DF /* SceneDelegate.swift */; };
-		29FDB1CC283F9893007711DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB1CB283F9893007711DF /* ViewController.swift */; };
-		29FDB1CF283F9893007711DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29FDB1CD283F9893007711DF /* Main.storyboard */; };
+		29FDB1CC283F9893007711DF /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB1CB283F9893007711DF /* DataViewController.swift */; };
 		29FDB1D1283F9895007711DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29FDB1D0283F9895007711DF /* Assets.xcassets */; };
 		29FDB1D4283F9895007711DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29FDB1D2283F9895007711DF /* LaunchScreen.storyboard */; };
 		29FDB1DF283F9895007711DF /* PryanikiTestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB1DE283F9895007711DF /* PryanikiTestTaskTests.swift */; };
 		29FDB1E9283F9895007711DF /* PryanikiTestTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB1E8283F9895007711DF /* PryanikiTestTaskUITests.swift */; };
 		29FDB1EB283F9895007711DF /* PryanikiTestTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB1EA283F9895007711DF /* PryanikiTestTaskUITestsLaunchTests.swift */; };
+		29FDB1FC283F9925007711DF /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB1F9283F9925007711DF /* NetworkService.swift */; };
+		29FDB1FD283F9925007711DF /* DataFetcherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB1FA283F9925007711DF /* DataFetcherService.swift */; };
+		29FDB1FE283F9925007711DF /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB1FB283F9925007711DF /* DataFetcher.swift */; };
+		29FDB204283F9AC6007711DF /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB203283F9AC6007711DF /* DataViewModel.swift */; };
+		29FDB209283F9D52007711DF /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB206283F9D52007711DF /* NetworkService.swift */; };
+		29FDB20A283F9D52007711DF /* DataFetcherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB207283F9D52007711DF /* DataFetcherService.swift */; };
+		29FDB20B283F9D52007711DF /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB208283F9D52007711DF /* DataFetcher.swift */; };
+		29FDB20E283FA56D007711DF /* RequestDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB20D283FA56D007711DF /* RequestDataModel.swift */; };
+		29FDB212283FAE62007711DF /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB211283FAE62007711DF /* DataModel.swift */; };
+		29FDB216283FBB30007711DF /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB215283FBB30007711DF /* BaseTableViewCell.swift */; };
+		29FDB218283FBBE1007711DF /* DataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB217283FBBE1007711DF /* DataCell.swift */; };
+		29FDB21C283FC00F007711DF /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB21B283FC00F007711DF /* UILabel.swift */; };
+		29FDB220283FD9A2007711DF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB21F283FD9A2007711DF /* DetailViewController.swift */; };
+		29FDB222283FDAA3007711DF /* DataDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB221283FDAA3007711DF /* DataDetailViewModel.swift */; };
+		29FDB226283FDDC9007711DF /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDB225283FDDC9007711DF /* Box.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +53,7 @@
 		29FDB1C4283F9893007711DF /* PryanikiTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PryanikiTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FDB1C7283F9893007711DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29FDB1C9283F9893007711DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		29FDB1CB283F9893007711DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		29FDB1CE283F9893007711DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29FDB1CB283F9893007711DF /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		29FDB1D0283F9895007711DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29FDB1D3283F9895007711DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29FDB1D5283F9895007711DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +62,21 @@
 		29FDB1E4283F9895007711DF /* PryanikiTestTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PryanikiTestTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FDB1E8283F9895007711DF /* PryanikiTestTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PryanikiTestTaskUITests.swift; sourceTree = "<group>"; };
 		29FDB1EA283F9895007711DF /* PryanikiTestTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PryanikiTestTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		29FDB1F9283F9925007711DF /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		29FDB1FA283F9925007711DF /* DataFetcherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFetcherService.swift; sourceTree = "<group>"; };
+		29FDB1FB283F9925007711DF /* DataFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		29FDB203283F9AC6007711DF /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
+		29FDB206283F9D52007711DF /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		29FDB207283F9D52007711DF /* DataFetcherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFetcherService.swift; sourceTree = "<group>"; };
+		29FDB208283F9D52007711DF /* DataFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		29FDB20D283FA56D007711DF /* RequestDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestDataModel.swift; sourceTree = "<group>"; };
+		29FDB211283FAE62007711DF /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		29FDB215283FBB30007711DF /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		29FDB217283FBBE1007711DF /* DataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCell.swift; sourceTree = "<group>"; };
+		29FDB21B283FC00F007711DF /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		29FDB21F283FD9A2007711DF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		29FDB221283FDAA3007711DF /* DataDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDetailViewModel.swift; sourceTree = "<group>"; };
+		29FDB225283FDDC9007711DF /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +127,11 @@
 		29FDB1C6283F9893007711DF /* PryanikiTestTask */ = {
 			isa = PBXGroup;
 			children = (
-				29FDB1C7283F9893007711DF /* AppDelegate.swift */,
-				29FDB1C9283F9893007711DF /* SceneDelegate.swift */,
-				29FDB1CB283F9893007711DF /* ViewController.swift */,
-				29FDB1CD283F9893007711DF /* Main.storyboard */,
-				29FDB1D0283F9895007711DF /* Assets.xcassets */,
-				29FDB1D2283F9895007711DF /* LaunchScreen.storyboard */,
-				29FDB1D5283F9895007711DF /* Info.plist */,
+				29FDB21D283FD918007711DF /* Controllers */,
+				29FDB214283FBB15007711DF /* Cells */,
+				29FDB205283F9D52007711DF /* Servises */,
+				29FDB21A283FBFD5007711DF /* Extensions */,
+				29FDB1F7283F98DB007711DF /* Supporting files */,
 			);
 			path = PryanikiTestTask;
 			sourceTree = "<group>";
@@ -114,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				29FDB1DE283F9895007711DF /* PryanikiTestTaskTests.swift */,
+				29FDB1F8283F9925007711DF /* Servises */,
 			);
 			path = PryanikiTestTaskTests;
 			sourceTree = "<group>";
@@ -125,6 +152,103 @@
 				29FDB1EA283F9895007711DF /* PryanikiTestTaskUITestsLaunchTests.swift */,
 			);
 			path = PryanikiTestTaskUITests;
+			sourceTree = "<group>";
+		};
+		29FDB1F7283F98DB007711DF /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				29FDB1C7283F9893007711DF /* AppDelegate.swift */,
+				29FDB1C9283F9893007711DF /* SceneDelegate.swift */,
+				29FDB1D0283F9895007711DF /* Assets.xcassets */,
+				29FDB1D2283F9895007711DF /* LaunchScreen.storyboard */,
+				29FDB1D5283F9895007711DF /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		29FDB1F8283F9925007711DF /* Servises */ = {
+			isa = PBXGroup;
+			children = (
+				29FDB1F9283F9925007711DF /* NetworkService.swift */,
+				29FDB1FA283F9925007711DF /* DataFetcherService.swift */,
+				29FDB1FB283F9925007711DF /* DataFetcher.swift */,
+			);
+			name = Servises;
+			path = ../../../Desktop/Servises;
+			sourceTree = "<group>";
+		};
+		29FDB205283F9D52007711DF /* Servises */ = {
+			isa = PBXGroup;
+			children = (
+				29FDB225283FDDC9007711DF /* Box.swift */,
+				29FDB206283F9D52007711DF /* NetworkService.swift */,
+				29FDB207283F9D52007711DF /* DataFetcherService.swift */,
+				29FDB208283F9D52007711DF /* DataFetcher.swift */,
+			);
+			name = Servises;
+			path = ../../../Desktop/Servises;
+			sourceTree = "<group>";
+		};
+		29FDB214283FBB15007711DF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				29FDB215283FBB30007711DF /* BaseTableViewCell.swift */,
+				29FDB217283FBBE1007711DF /* DataCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		29FDB21A283FBFD5007711DF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				29FDB21B283FC00F007711DF /* UILabel.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		29FDB21D283FD918007711DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				29FDB227283FFC0A007711DF /* DataViewController */,
+				29FDB229283FFC5A007711DF /* DetailViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		29FDB227283FFC0A007711DF /* DataViewController */ = {
+			isa = PBXGroup;
+			children = (
+				29FDB1CB283F9893007711DF /* DataViewController.swift */,
+				29FDB228283FFC29007711DF /* Models */,
+			);
+			path = DataViewController;
+			sourceTree = "<group>";
+		};
+		29FDB228283FFC29007711DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				29FDB203283F9AC6007711DF /* DataViewModel.swift */,
+				29FDB211283FAE62007711DF /* DataModel.swift */,
+				29FDB20D283FA56D007711DF /* RequestDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		29FDB229283FFC5A007711DF /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				29FDB21F283FD9A2007711DF /* DetailViewController.swift */,
+				29FDB22A283FFC72007711DF /* Models */,
+			);
+			path = DetailViewController;
+			sourceTree = "<group>";
+		};
+		29FDB22A283FFC72007711DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				29FDB221283FDAA3007711DF /* DataDetailViewModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +357,6 @@
 			files = (
 				29FDB1D4283F9895007711DF /* LaunchScreen.storyboard in Resources */,
 				29FDB1D1283F9895007711DF /* Assets.xcassets in Resources */,
-				29FDB1CF283F9893007711DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +381,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29FDB1CC283F9893007711DF /* ViewController.swift in Sources */,
+				29FDB220283FD9A2007711DF /* DetailViewController.swift in Sources */,
+				29FDB209283F9D52007711DF /* NetworkService.swift in Sources */,
+				29FDB20B283F9D52007711DF /* DataFetcher.swift in Sources */,
+				29FDB1CC283F9893007711DF /* DataViewController.swift in Sources */,
+				29FDB216283FBB30007711DF /* BaseTableViewCell.swift in Sources */,
+				29FDB204283F9AC6007711DF /* DataViewModel.swift in Sources */,
 				29FDB1C8283F9893007711DF /* AppDelegate.swift in Sources */,
+				29FDB218283FBBE1007711DF /* DataCell.swift in Sources */,
+				29FDB20E283FA56D007711DF /* RequestDataModel.swift in Sources */,
 				29FDB1CA283F9893007711DF /* SceneDelegate.swift in Sources */,
+				29FDB20A283F9D52007711DF /* DataFetcherService.swift in Sources */,
+				29FDB21C283FC00F007711DF /* UILabel.swift in Sources */,
+				29FDB226283FDDC9007711DF /* Box.swift in Sources */,
+				29FDB212283FAE62007711DF /* DataModel.swift in Sources */,
+				29FDB222283FDAA3007711DF /* DataDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +403,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29FDB1FC283F9925007711DF /* NetworkService.swift in Sources */,
 				29FDB1DF283F9895007711DF /* PryanikiTestTaskTests.swift in Sources */,
+				29FDB1FD283F9925007711DF /* DataFetcherService.swift in Sources */,
+				29FDB1FE283F9925007711DF /* DataFetcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +435,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		29FDB1CD283F9893007711DF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29FDB1CE283F9893007711DF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		29FDB1D2283F9895007711DF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,10 +569,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NW3TBUJXAX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PryanikiTestTask/Info.plist;
+				INFOPLIST_FILE = "PryanikiTestTask/Supporting files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,10 +596,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NW3TBUJXAX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PryanikiTestTask/Info.plist;
+				INFOPLIST_FILE = "PryanikiTestTask/Supporting files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
